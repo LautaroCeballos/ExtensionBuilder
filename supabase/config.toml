@@ -1,0 +1,18 @@
+[project]
+name = "extension-builder"
+
+[auth]
+enabled = true
+
+[auth.external.github]
+enabled = true
+client_id = ""
+secret = ""
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"
+
+[api]
+enabled = true
+port = 54321

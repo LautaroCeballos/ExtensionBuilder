@@ -1,0 +1,11 @@
+{
+  "name": "extension-builder",
+  "private": true,
+  "description": "MakeCode Arcade extension generator with AI",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "functions": "cd supabase && npx supabase functions serve"
+  }
+}

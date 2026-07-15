@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ChatBox from "../components/ChatBox.astro";
+
+const supabaseUrl = import.meta.env.PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.PUBLIC_SUPABASE_ANON_KEY;
+---
+
+<BaseLayout title="Extension Builder — MakeCode Arcade AI">
+  <ChatBox supabaseUrl={supabaseUrl} supabaseAnonKey={supabaseAnonKey} />
+</BaseLayout>
