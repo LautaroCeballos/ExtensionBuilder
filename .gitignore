@@ -1,5 +1,7 @@
 node_modules/
 dist/
+frontend/dist/
+frontend/.astro/
 .env
 .env.local
 supabase/.env
