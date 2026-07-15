@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { title = "Extension Builder", description = "Genera extensiones de MakeCode Arcade con IA" } = Astro.props;
-const base = new URL(".", Astro.url).pathname;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
 ---
 
 <!doctype html>
